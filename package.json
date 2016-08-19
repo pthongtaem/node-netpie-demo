@@ -1,0 +1,15 @@
+{
+  "name": "node-netpie-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "babel-node": "babel-node --ignore='foo|bar|baz'",
+    "start": "npm run babel-node -- app.js"
+  },
+  "dependencies": {
+    "microgear": "^0.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
